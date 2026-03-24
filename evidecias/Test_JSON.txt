@@ -1,0 +1,9 @@
+[info] Playing test case CRAN / Test_Json
+[info] Time: Mon Mar 23 2026 21:24:07 GMT-0600 (hora estándar central) Timestamp: 1774322647540
+[info] OS: Windows Version: 10
+[info] Browser: Chrome Version: 146.0
+[info] If the test cannot start, please refresh the active browser tab
+[info] Executing: | open | chrome://newtab/ | |
+[info] Executing: | open | https://cran.infinityfreeapp.com/ | |
+[info] Executing: | assertAlert | Hola Prueba Json. | |
+[info] Stop executing

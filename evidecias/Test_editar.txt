@@ -1,0 +1,18 @@
+[info] Playing test case CRAN / Test_Editar
+[info] Time: Mon Mar 23 2026 21:21:01 GMT-0600 (hora estándar central) Timestamp: 1774322461495
+[info] OS: Windows Version: 10
+[info] Browser: Chrome Version: 146.0
+[info] If the test cannot start, please refresh the active browser tab
+[info] Executing: | open | chrome://newtab/ | |
+[info] Executing: | open | https://cran.infinityfreeapp.com/modifica.html?id=31 | |
+[info] Executing: | click | xpath=//form[@id='formulario']/p[2]/label | |
+[info] Executing: | type | name=nombre | Valeria |
+[info] Executing: | click | name=apellidop | |
+[info] Executing: | click | name=apellidop | |
+[info] Executing: | type | name=apellidop | REYES |
+[info] Executing: | click | xpath=//form[@id='formulario']/p[6]/label | |
+[info] Executing: | type | name=calificacion | 10 |
+[info] Executing: | click | xpath=//button[@type='submit'] | |
+[info] Executing: | assertAlert | El alumno Valeria REYES Editado correctamente | |
+[error] Alert message doesn't match actual message
+[info] Pausing

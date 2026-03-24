@@ -1,0 +1,20 @@
+[info] Playing test case CRAN / Test_Agregar
+[info] Time: Mon Mar 23 2026 21:15:35 GMT-0600 (hora estándar central) Timestamp: 1774322135408
+[info] OS: Windows Version: 10
+[info] Browser: Chrome Version: 146.0
+[info] If the test cannot start, please refresh the active browser tab
+[info] Executing: | open | chrome://newtab/ | |
+[info] Executing: | open | https://cran.infinityfreeapp.com/agrega.html | |
+[info] Executing: | click | name=nombre | |
+[info] Executing: | type | name=nombre | Mildred |
+[info] Executing: | click | name=apellidop | |
+[info] Executing: | type | name=apellidop | Chavarria |
+[info] Executing: | click | name=apellidom | |
+[info] Executing: | type | name=apellidom | Lopez |
+[info] Executing: | click | name=materia | |
+[info] Executing: | type | name=materia | Ingles |
+[info] Executing: | click | name=calificacion | |
+[info] Executing: | type | name=calificacion | 7 |
+[info] Executing: | click | xpath=//button[@type='submit'] | |
+[info] Executing: | assertAlert | El alumno Mildred Chavarria Guardado correctamente | |
+[info] Stop executing

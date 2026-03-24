@@ -1,0 +1,12 @@
+[info] Playing test case CRAN / Test_API
+[info] Time: Mon Mar 23 2026 21:25:47 GMT-0600 (hora estándar central) Timestamp: 1774322747856
+[info] OS: Windows Version: 10
+[info] Browser: Chrome Version: 146.0
+[info] If the test cannot start, please refresh the active browser tab
+[info] Executing: | open | chrome://newtab/ | |
+[info] Executing: | open | https://cran.infinityfreeapp.com/ | |
+[info] Executing: | click | xpath=///text()[normalize-space(.)='']/parent:: | |
+[info] Executing: | click | xpath=///text()[normalize-space(.)='']/parent:: | |
+[info] Executing: | captureEntirePageScreenshot | | |
+[info] Time: Mon Mar 23 2026 21:25:53 GMT-0600 (hora estándar central) Timestamp: 1774322753388
+[info] Test case passed

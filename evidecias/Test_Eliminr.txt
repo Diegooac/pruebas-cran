@@ -1,0 +1,12 @@
+[info] Playing test case CRAN / Test_Eliminar
+[info] Time: Mon Mar 23 2026 21:22:11 GMT-0600 (hora estándar central) Timestamp: 1774322531698
+[info] OS: Windows Version: 10
+[info] Browser: Chrome Version: 146.0
+[info] If the test cannot start, please refresh the active browser tab
+[info] Executing: | open | chrome://newtab/ | |
+[info] Executing: | chooseOkOnNextConfirmation | | |
+[info] Executing: | open | https://cran.infinityfreeapp.com/modifica.html?id=31 | |
+[info] Executing: | click | id=eliminar | |
+[info] Executing: | assertConfirmation | ¿Eliminar registro? | |
+[error] Confirmation message doesn't match actual message
+[info] Pausing
